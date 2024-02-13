@@ -1,0 +1,29 @@
+Author : Taksha Sachin Thosani
+UTA #ID: 1002086312
+
+
+Particular Conditions and Evaluations for Every Issue:
+
+
+Challenge 0: Fibonacci Sequence: Develop a recursive function for the Fibonacci sequence.
+
+For consistency in the results, the function must return fib(n-1) + fib(n-2) in precisely this order.
+
+________________________________________________________________________________________________________
+
+Challenge 1: 
+
+Combining K Sorted Arrays Execution: offered a Java implementation for efficiently merging K sorted arrays using a MinHeap (a Java PriorityQueue).
+
+
+Time Complexity Proof: O(N*K*log(K)) is the time complexity, where K is the number of arrays and N is the number of elements in each array. This is due to the fact that we execute insertion and removal operations in the MinHeap for each element in each array, which takes O(log(K)) time.
+Possible Enhancements: A Divide and Conquer strategy, that might lower the constant factors contributing to the time complexity.
+
+_________________________________________________________________________________________________________
+
+Challenge 2 :
+
+Eliminate Duplicates from the Sorted Array Application: offered a Java implementation that shifts elements in a sorted array to eliminate duplicates.
+
+Time Complexity Proof: The algorithm runs through the array once, comparing each element with its predecessor to find duplicates. As a result, the time complexity is O(N).
+Possible Enhancements: Considering the limitations, the implementation is already effective. Ensuring appropriate handling of edge cases was the main topic of discussion.
